@@ -1,0 +1,12 @@
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+
+Bob -> Frank : 登录
+
+Bob <-- Frank : 返回结果
+
+@enduml
